@@ -1,0 +1,208 @@
+/* @media screen and (max-width:480px) {
+    html {
+        font-size: 25%;
+    }
+
+}
+@media screen and (min-width:480px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 100%;
+    }
+}
+html{
+    margin: 0PX;
+    padding: 0PX;
+    border: 0PX;
+}
+body{
+    margin: 0PX;
+    padding: 0PX;
+    border: 0PX;
+} */
+
+
+@media screen and (max-width:480px) {
+    html {
+        font-size: 25%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box img{
+        width: 100%;
+    }
+    .foot {
+        width: 100%;
+        font-size: 3rem;
+        border-radius: 6rem;
+        animation-name: foot;
+        color: white;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+}
+@media screen and (min-width:480px) {
+    html {
+        font-size: 25%;
+    }
+    .box{
+        width: 40%;
+        margin: 0 30% 0 30%;
+    }
+    .box img{
+        width: 100%;
+    }
+    .foot {
+        width: 40%;
+        margin: 0 30% 0 30%;
+        font-size: 3rem;
+        border-radius: 6rem;
+        animation-name: foot;
+        color: white;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+/* 超小设备（手机，小于 768px） */
+@media screen and (min-width:768px) {
+    html {
+        font-size: 45%;
+    }
+    .box{
+        width: 40%;
+        margin: 0 30% 0 30%;
+    }
+    .box img{
+        width: 100%;
+    }
+    .foot {
+        width: 40%;
+        margin: 0 30% 0 30%;
+        font-size: 3rem;
+        border-radius: 6rem;
+        animation-name: foot;
+        color: white;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+/* 小型设备（平板电脑，768px 起） */
+@media screen and (min-width:992px) {
+    html {
+        font-size: 70%;
+    }
+    .box{
+        width: 40%;
+        margin: 0 30% 0 30%;
+    }
+    .box img{
+        width: 100%;
+    }
+    .foot {
+        width: 40%;
+        margin: 0 30% 0 30%;
+        font-size: 3rem;
+        border-radius: 6rem;
+        animation-name: foot;
+        color: white;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+/* 中型设备（台式电脑，992px 起） */
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 100%;
+    }
+    .box{
+        width: 40%;
+        margin: 0 30% 0 30%;
+    }
+    .box img{
+        width: 100%;
+    }
+    .foot {
+        width: 40%;
+        margin: 0 30% 0 30%;
+        font-size: 3rem;
+        border-radius: 6rem;
+        animation-name: foot;
+        color: white;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+html{
+    margin: 0PX;
+    padding: 0PX;
+    border: 0PX;
+}
+body{
+    margin: 0PX;
+    padding: 0PX;
+    border: 0PX;
+}
+@keyframes foot {
+    from {
+        transform: scale(0.8);
+
+    }
+    to {
+        transform: scale(1);
+
+    }
+}
+.box25 img{
+    width: 48%;
+    margin: 0 1% 0 1%;
+}
